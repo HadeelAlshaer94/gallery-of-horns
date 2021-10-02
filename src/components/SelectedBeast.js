@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 
 class SelectedBeast extends React.Component {
     render() {
-        return (
+        return ( 
             <div>
                 <Modal show={this.props.show} onHide={this.props.close}>
                     <Modal.Header>
@@ -37,6 +37,6 @@ class SelectedBeast extends React.Component {
             </div>
         );
     }
-}
+} 
 
 export default SelectedBeast;
