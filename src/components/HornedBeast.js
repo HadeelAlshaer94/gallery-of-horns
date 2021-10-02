@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 
 class HornedBeast extends React.Component {
   constructor(props) {
@@ -33,7 +32,7 @@ class HornedBeast extends React.Component {
               🦄 : {this.state.numOfVotes}
             </Card.Text>
             <Card.Text>{this.props.description}</Card.Text>
-            <Button variant="primary" size="sm">Submit</Button>
+            <Card.Text> horns = {this.props.horns} </Card.Text>
           </Card.Body>
         </Card>
       </div>
